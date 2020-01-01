@@ -1,0 +1,13 @@
+{
+  "@aws-cdk/core:enableStackNameDuplicates": "true",
+  "aws-cdk:enableDiffNoFail": "true",
+  "availability-zones:account=065399384924:region=ap-northeast-1": [
+    "ap-northeast-1a",
+    "ap-northeast-1c",
+    "ap-northeast-1d"
+  ],
+  "hosted-zone:account=065399384924:domainName=hirokihello.com:privateZone=false:region=ap-northeast-1": {
+    "Id": "/hostedzone/Z11TD6N2CIFA7W",
+    "Name": "hirokihello.com."
+  }
+}
